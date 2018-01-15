@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainPage.master.cs" Inherits="mpage" %>
+<%@ Register Src="MenuUp.ascx" TagName="MenuUp" TagPrefix="uc3" %>
+<%@ Register Src="MenuMembers.ascx" TagName="MenuMembers" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server" >
+    <title>Untitled Page</title>
+</head>
+<body bgcolor="#2B66CE">
+    <form id="form1" runat="server" >
+    <div>
+        <table style="width: 278px; height: 293px; margin-top: 0px; margin-left: 0px; margin-right: 0px; text-align: center; border-right: lavender thin solid; border-top: lavender thin solid; border-left: lavender thin solid; border-bottom: lavender thin solid; font-size: x-small; font-family: Tahoma; vertical-align: top; background-color: #ffffff;" border="0" cellpadding="0" cellspacing="0" dir="ltr" align=center >
+            <tr>
+                <td align="right" colspan="2" rowspan="6" valign="top">
+                    &nbsp;&nbsp;<asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/App_Data/XMLFHd.xml"
+                        Height="228px" Width="307px" />
+                </td>
+                <td colspan="2" style="height: 14px" align="left" valign="top">
+                    <asp:Image ID="Image1" runat="server" Height="89px" ImageUrl="~/images/H3_1.gif" Width="524px" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 1px" valign="top">
+                    <asp:Image ID="Image6" runat="server" Height="54px" ImageUrl="~/images/m1_1.gif"
+                        Width="524px" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="height: 1px" valign="top">
+                    &nbsp;<br />
+                    <uc3:MenuUp ID="MenuUp2" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2" rowspan="1" valign="top" style="height: 21px">
+                    </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="2" rowspan="2" valign="top" style="height: 13px">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td align="right" colspan="5" style="height: 11px" valign="top">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </asp:ContentPlaceHolder>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="4" rowspan="7" valign="top">
+                    &nbsp;<asp:Image ID="Image5" runat="server" Height="81px" ImageUrl="~/Images/f1.bmp" Width="200px" />
+                    &nbsp;&nbsp;<asp:Image ID="Image2" runat="server" Height="115px" ImageUrl="~/Images/f2.gif"
+                        Width="173px" /></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td rowspan="1" style="width: 625px; height: 98px;" valign="bottom" align="right">
+                    </td>
+                <td align="right" rowspan="1" style="height: 98px;" valign="top">
+                    </td>
+            </tr>
+            <tr>
+                <td align="left" colspan="3" style="height: 8px; background-color: background" valign="top">
+                    &nbsp;<uc3:MenuUp ID="MenuUp1" runat="server" />
+                    <br />
+                    <br />
+                </td>
+                <td style="height: 8px; background-color: background;" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" rowspan="2" style="height: 22px; background-color: background">
+                    <p>
+                        <font color="#ffffff" face="Verdana, Arial, Helvetica, sans-serif" size="1">© 2008 Pasargad
+                            Service Company, Inc. All rights reserved.</font></p>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="4" rowspan="1" style="height: 22px; background-color: background">
+                    <span style="font-size: 8pt; color: #ff8c00">Designing &nbsp;by: F.Khorzani &nbsp; www.pcsafir.com</span></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
